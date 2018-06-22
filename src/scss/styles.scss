@@ -15,7 +15,7 @@ html,body{
   background-position: center;
   background-size:cover;
   background-attachment: fixed;
-  min-height: 600px;
+  height: 100%;
 }
 #parallax2{
   background: url(../img/comp2.jpeg)no-repeat;
@@ -23,6 +23,7 @@ html,body{
   background-size: cover;
   background-attachment: fixed;
   min-height: 200px;
+
 }
 #canvas{
   background: url(../img/board.jpeg) no-repeat;
@@ -47,6 +48,9 @@ html,body{
 .padding{
   padding: 20px 0;
 }
+#shortbit{
+
+}
 
 .language, .art {
   padding-top: 75px;
@@ -60,6 +64,18 @@ html,body{
 
 .jumbotron{
   background-color: #rgb(139, 221, 175);
+}
+.artwork{
+  // height: auto;
+  // width: 100%;
+  width: 275px;
+  height: 275px;
+
+}
+#round-corner h3{
+  border-radius: 0.6rem;
+  background: #b1bfd2;
+  color: #1d0401;
 }
 
 footer{
